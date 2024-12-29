@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* change file 3 */
+.first {
+
+    background-image: url("hero-bg.jpg");
+    height: 85vh;
+
+}
+
+.full-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.full-nav .nav-list {
+    gap: 30px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    list-style: none;
+    font-weight: 500;
+}
+
+.full-nav button {
+    padding: 14px;
+    margin: 8px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 120px;
+    color: #07ccec;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.full-nav button {
+    height: 50px;
+    width: 120px;
+    border: none;
+}
+
+.fotter {
+    display: flex;
+    flex-direction: column;
+
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.fotter h1 {
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+.fotter .fotter_button {
+    display: flex;
+    gap: 20px;
+
+
+
+}
+
+.fotter_button button {
+    padding: 14px;
+    margin: 8px;
+    border: none;
+    background-color: #07ccec;
+    border-radius: 10px;
+    height: 50px;
+    width: 120px;
+    color: white;
+
+}
+
+@media only screen and (max-width: 1050px) {
+    .full-nav {
+        flex-direction: column;
+
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+
+    }
+
+    .nav-list li a {
+
+        font-size: 18px;
+    }
+
+    .full-nav img {
+
+        height: 50px;
+    }
+
+    .fotter {
+        height: 40vh;
+    }
+
+    .fotter h1 {
+        font-size: 34px;
+        font-weight: 300;
+    }
+
+}
